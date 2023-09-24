@@ -1,4 +1,17 @@
 proxies:
+- name: Gatot2Nusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: a33aeff9-8a4c-40a8-8f4a-896f8ec4802c
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: GatotDua_LiveDO_1
   type: trojan
   server: circles.asia

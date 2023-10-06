@@ -1,17 +1,69 @@
 proxies:
-- name: Gatot2Nusa_LiveNusa_1
+- name: Gatot2Nusa_Live_IP1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
-  password: a33aeff9-8a4c-40a8-8f4a-896f8ec4802c
+  password: aa520b14-3954-4311-9fb5-7c239778e8d2
   udp: true
-  sni: vpna4mvbhv.scpotato.me
+  sni: nusa.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: vpna4mvbhv.scpotato.me
+      Host: nusa.dstb.cloud
+- name: Gatot2Nusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: aa520b14-3954-4311-9fb5-7c239778e8d2
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Gatot2Nusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: aa520b14-3954-4311-9fb5-7c239778e8d2
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Gatot2Nusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: aa520b14-3954-4311-9fb5-7c239778e8d2
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Gatot2Nusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: aa520b14-3954-4311-9fb5-7c239778e8d2
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: GatotDua_LiveDO_1
   type: trojan
   server: circles.asia
